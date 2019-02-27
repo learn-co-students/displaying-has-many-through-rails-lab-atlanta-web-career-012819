@@ -31,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'rb-readline'
 
 group :development do
 end
@@ -44,5 +45,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'pry'
+  # gem 'pry'
+  gem 'pry-rails'
 end
